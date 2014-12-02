@@ -26,7 +26,10 @@ Build
 -----
 wxTorus can be compiled with wxWidget 3.0 above.
 To install wxWdget please see wxWidgets install pages.
+
 To build wxTorus you might need visual studio 2011 or above.
+load wxTorus.sln and build
+wxTorus.dsw is added just for keeping old project file.
 
 HISTORY
 -------
