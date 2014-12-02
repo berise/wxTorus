@@ -56,7 +56,7 @@ IMPLEMENT_APP(MyApp)
 bool MyApp::OnInit()
 {
     // create the main application window
-    MyFrame *frame = new MyFrame(_T("wxTorus wxWindows App"),
+    MyFrame *frame = new MyFrame(_T("wxTorus App"),
                                  wxDefaultPosition,
 								 //wxDefaultSize);
 								 wxSize(TORUS_MAX_WIDTH, TORUS_MAX_HEIGHT));
