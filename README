@@ -1,29 +1,31 @@
-=== What is wxTorus === 
+What is wxTorus
+===============
 wxTorus is a simple game inspired by Torus for DOS.  The object of Torus is to 
 clear falling toruses by aligning toruses with the same color on one of several 
 protruding pipes. 
 
+How to play
+-----------
+Use your arrow keys in your keyboard and align your toruses in a row with same color.
+Just try to play it for a moment.
 
+UNFORTUNATELY Arrow keys are not working with wxWidgets 3.0+.
+please use vim key(hjkl) or Keypad 8462.
 
-=== How to play ===
-Use your arrow keys in your keyboard and align your toruses in a row with same 
-color.
-Just try to play it for a moment. You will find yourself playing
-wxTorus.
-
-
-=== KEY ===
 ARROW KEYS : Up, Down, Left and Right Arrow 
+VIM keys : hjkl
+keypad : 846(5)2
 Space : to start or pause a game.
 ESE to quit a game.
 
+Build
+-----
+wxTorus can be compiled with wxWidget 3.0 above.
+To install wxWdget please see wxWidgets install pages.
+To build wxTorus you might need visual studio 2011 or above.
 
-
-=== Build ===
-See wxWidgets install pages. you'll find some hints to build wxTorus.
-
-
-=== HISTORY ===
+HISTORY
+-------
 This game(torus) is initially started in 1998 to use Qt(ver 0.98).
 And I registered this program at the sourceforce.net with ktorus.
 Do you want to know why there's a prefix k? That's because torus 
@@ -53,9 +55,14 @@ library anymore.
 In 2005, I decide my mind to use wxWidgets as base library. And I can get a 
 multiplatform torus with one source ^^.  Thanks to wxWidgets.
 
+If you want to see older version of torus please go 
+[ktorus@sourceforge](http://sourceforge.net/projects/ktorus/?source=directory)
 
 Do you like this game? 
-Then please send me a email to encourage this project. (
+~~Then please send me a email to encourage this project.~~
+(please don't do this now. I can not afford this project anymore)
 
-=== Author ===
+
+Author
+------
 JaeSung Lee (berise@gmail.com)
