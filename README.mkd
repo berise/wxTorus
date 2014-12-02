@@ -6,7 +6,7 @@ wxTorus is a simple game inspired by Torus for DOS.  The object of Torus is to
 clear falling toruses by aligning toruses with the same color on one of several 
 protruding pipes. 
 
-How to play
+How to play (Please see bin/ for the executable!)
 -----------
 Use your arrow keys in your keyboard and align your toruses in a row with same color.
 Just try to play it for a moment.
