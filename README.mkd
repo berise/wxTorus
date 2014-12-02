@@ -1,3 +1,5 @@
+*wxTorus have been in my hard drive for a long time. I just want to make it runnable.*
+
 What is wxTorus
 ===============
 wxTorus is a simple game inspired by Torus for DOS.  The object of Torus is to 
@@ -9,7 +11,8 @@ How to play
 Use your arrow keys in your keyboard and align your toruses in a row with same color.
 Just try to play it for a moment.
 
-UNFORTUNATELY Arrow keys are not working with wxWidgets 3.0+.
+UNFORTUNATELY Arrow keys are not working with wxWidgets 3.0+.(*anybody interested in fixing this*)
+
 please use vim key(hjkl) or Keypad 8462.
 
 ARROW KEYS : Up, Down, Left and Right Arrow 
