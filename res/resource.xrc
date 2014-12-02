@@ -1,0 +1,17 @@
+<?xml version="1.0"?> 
+<resource version="2.3.0.1"> 
+
+<object class="wxBitmap" name="WXTORUS_ICON">wxtorus_icon.png</object> 
+<object class="wxBitmap" name="WXTORUS_LOGO">wxtorus_logo.png</object> 
+<object class="wxBitmap" name="WXTORUS_TORUSES">toruses.png</object> 
+<object class="wxBitmap" name="WXTORUS_PIN">pin.png</object> 
+<object class="wxBitmap" name="WXTORUS_SIDEBAR">sidebar.png</object> 
+<object class="wxBitmap" name="WXTORUS_AUTHOR">author_.png</object> 
+<object class="wxBitmap" name="WXTORUS_GRAY_PATTERN0">gray_pattern0.png</object> 
+<!--object class="wxBitmap" name="WXTORUS_GRAY_PATTERN1">gray_pattern1.png</object> 
+<object class="wxBitmap" name="WXTORUS_GRAY_PATTERN2">gray_pattern2.png</object> 
+<object class="wxBitmap" name="WXTORUS_GRAY_PATTERN3">gray_pattern3.png</object> 
+<object class="wxBitmap" name="WXTORUS_GRASS_PATTERN0">grass_pattern0.png</object> 
+<object class="wxBitmap" name="WXTORUS_RED_PATTERN0">red_pattern0.png</object--> 
+
+</resource>

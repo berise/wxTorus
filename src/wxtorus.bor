@@ -1,0 +1,75 @@
+# Makefile for building the wxtorus exe with Borland C++ Make
+
+NAME = wxtorus
+
+NO_FULL_PATH=1
+
+OBJFILES = \
+	$(OBJDIR)\pin.$(OBJ_EXT) \
+	$(OBJDIR)\pipe.$(OBJ_EXT) \
+	$(OBJDIR)\preferencedialog.$(OBJ_EXT) \
+	$(OBJDIR)\roller.$(OBJ_EXT) \
+	$(OBJDIR)\scorefile.$(OBJ_EXT) \
+	$(OBJDIR)\scorepanel.$(OBJ_EXT) \
+	$(OBJDIR)\top10dialog.$(OBJ_EXT) \
+	$(OBJDIR)\torus.$(OBJ_EXT) \
+	$(OBJDIR)\torusinternal.$(OBJ_EXT) \
+	$(OBJDIR)\torusthread.$(OBJ_EXT) \
+	$(OBJDIR)\torusview.$(OBJ_EXT) \
+	$(OBJDIR)\wxtorus.$(OBJ_EXT)
+
+RESOURCE = $(OBJDIR)\wxtorus.res
+
+!ifdef STATIC
+!else
+!endif
+
+CFLAGS = \
+	$(LIB_FLAGS) \
+	$(DLL_FLAGS)
+
+CPPDIR = .
+CDIR   = .
+
+INCDIR_NAME = D:\berise\prog\wxtorus_noxml\src
+
+#
+# Override defaults in outputdir.bor
+#
+STATIC_DIR=.
+DEBUG_DIR=.
+PASCAL_DIR=.
+UNICODE_DIR=.
+
+INSTALL_DLLDIR=$(INSTALL_DIR)\lib
+INCLUDES_INSTALL=1
+
+BASE_BINDIR = .
+
+!include <$(ACE_ROOT)\include\makeinclude\build_exe.bor>
+
+includes_install: $(INCLUDES)
+	-@if not exist $(INSTALL_DIR)\include\$(INCDIR_NAME)\. mkdir $(INSTALL_DIR)\include\$(INCDIR_NAME)\.
+	-&copy /Y pin.h $(INSTALL_DIR)\include\$(INCDIR_NAME)\pin.h 1> NUL
+	-@if not exist $(INSTALL_DIR)\include\$(INCDIR_NAME)\. mkdir $(INSTALL_DIR)\include\$(INCDIR_NAME)\.
+	-&copy /Y pipe.h $(INSTALL_DIR)\include\$(INCDIR_NAME)\pipe.h 1> NUL
+	-@if not exist $(INSTALL_DIR)\include\$(INCDIR_NAME)\. mkdir $(INSTALL_DIR)\include\$(INCDIR_NAME)\.
+	-&copy /Y preferencedialog.h $(INSTALL_DIR)\include\$(INCDIR_NAME)\preferencedialog.h 1> NUL
+	-@if not exist $(INSTALL_DIR)\include\$(INCDIR_NAME)\. mkdir $(INSTALL_DIR)\include\$(INCDIR_NAME)\.
+	-&copy /Y roller.h $(INSTALL_DIR)\include\$(INCDIR_NAME)\roller.h 1> NUL
+	-@if not exist $(INSTALL_DIR)\include\$(INCDIR_NAME)\. mkdir $(INSTALL_DIR)\include\$(INCDIR_NAME)\.
+	-&copy /Y scorefile.h $(INSTALL_DIR)\include\$(INCDIR_NAME)\scorefile.h 1> NUL
+	-@if not exist $(INSTALL_DIR)\include\$(INCDIR_NAME)\. mkdir $(INSTALL_DIR)\include\$(INCDIR_NAME)\.
+	-&copy /Y scorepanel.h $(INSTALL_DIR)\include\$(INCDIR_NAME)\scorepanel.h 1> NUL
+	-@if not exist $(INSTALL_DIR)\include\$(INCDIR_NAME)\. mkdir $(INSTALL_DIR)\include\$(INCDIR_NAME)\.
+	-&copy /Y top10dialog.h $(INSTALL_DIR)\include\$(INCDIR_NAME)\top10dialog.h 1> NUL
+	-@if not exist $(INSTALL_DIR)\include\$(INCDIR_NAME)\. mkdir $(INSTALL_DIR)\include\$(INCDIR_NAME)\.
+	-&copy /Y torus.h $(INSTALL_DIR)\include\$(INCDIR_NAME)\torus.h 1> NUL
+	-@if not exist $(INSTALL_DIR)\include\$(INCDIR_NAME)\. mkdir $(INSTALL_DIR)\include\$(INCDIR_NAME)\.
+	-&copy /Y torusinternal.h $(INSTALL_DIR)\include\$(INCDIR_NAME)\torusinternal.h 1> NUL
+	-@if not exist $(INSTALL_DIR)\include\$(INCDIR_NAME)\. mkdir $(INSTALL_DIR)\include\$(INCDIR_NAME)\.
+	-&copy /Y torusthread.h $(INSTALL_DIR)\include\$(INCDIR_NAME)\torusthread.h 1> NUL
+	-@if not exist $(INSTALL_DIR)\include\$(INCDIR_NAME)\. mkdir $(INSTALL_DIR)\include\$(INCDIR_NAME)\.
+	-&copy /Y torusview.h $(INSTALL_DIR)\include\$(INCDIR_NAME)\torusview.h 1> NUL
+	-@if not exist $(INSTALL_DIR)\include\$(INCDIR_NAME)\. mkdir $(INSTALL_DIR)\include\$(INCDIR_NAME)\.
+	-&copy /Y wxtorus.h $(INSTALL_DIR)\include\$(INCDIR_NAME)\wxtorus.h 1> NUL

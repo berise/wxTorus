@@ -1,0 +1,18 @@
+project(wxtorus) : wxwidgets {
+  exename = wxtorus
+  Source_Files {
+	wxtorus.cpp
+	pin.cpp
+	pipe.cpp
+	preferencedialog.cpp
+	roller.cpp
+	scorefile.cpp
+	scorepanel.cpp
+	top10dialog.cpp
+	torus.cpp
+	torusinternal.cpp
+	torusthread.cpp
+	torusview.cpp
+
+  }
+}
