@@ -13,9 +13,13 @@ UNFORTUNATELY Arrow keys are not working with wxWidgets 3.0+.
 please use vim key(hjkl) or Keypad 8462.
 
 ARROW KEYS : Up, Down, Left and Right Arrow 
+
 VIM keys : hjkl
+
 keypad : 846(5)2
+
 Space : to start or pause a game.
+
 ESE to quit a game.
 
 Build
