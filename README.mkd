@@ -37,33 +37,29 @@ wxTorus.dsw is added just for keeping old project file.
 HISTORY
 -------
 This game(torus) is initially started in 1998 to use Qt(ver 0.98).
-And I registered this program at the sourceforce.net with ktorus.
-Do you want to know why there's a prefix k? That's because torus 
-is using Qt as GUI library and Qt work well in kdesktop environment(kde.org)
+And I registered this program to sourceforce.net as a ktorus.
+At this time, kde was massively developed and grown up to modern desktop environment.
 
 I try to port my torus into kdesktop environment but I have no time to work.
-(I have to finish my article.) 
-When KTorus reaches version 0.6, it is enough stable to play. And 
-I stopped to develop for a year.
+When KTorus reaches version 0.6, it is playable and I stopped.
 
-Also, this program is submitted at app.kde.org. Now it is not appear
-in app.kde because I didn't maintain it anymore. Some other linux site
-refer to this program ^^.
-
+Also, this program is submitted to app.kde.org. Well, now it is in app.kde because I didn't maintain this anymore.
+Some other linux sites still has information page about this program.
 
 After that, I try to port torus into MS Window platform.
 I choose a VWCL(Virtual Window Class Library by todd osbourne) as 
-a base GUI library. And I uploaded it as torus_win32_ver0.6.zip at the
-sourceforge.
+a base GUI library. And I've uploaded it as torus_win32_ver0.6.zip at the
+sourceforge. 
 This is torus for win32. It works exactly same as linux version.
-The VWCL works very fine. This library gives many windows classes that helps
-windows programming more easier.  The greatest benefit of this library is that
-it makes a extreamly small executable size comparable to that of API works.
-Sadly developer of this library stopped to develop. So I do not use this 
+The VWCL works very fine. This library gives many classes that help
+windows programming more easier. The greatest benefits of this library is that
+it makes a extreamly small executable size. it's almost same as win32 API.
+Sadly developer of this vwcl library stopped to develop. So I do not use this 
 library anymore.
 
-In 2005, I decide my mind to use wxWidgets as base library. And I can get a 
-multiplatform torus with one source ^^.  Thanks to wxWidgets.
+In 2005, I changed Qt to wxWidgets as a base library. While programming, I found
+wxWidgets is very useful and provides various functionalities that help programming.
+Thanks to wxWidgets.
 
 If you want to see older version of torus please go 
 [ktorus@sourceforge](http://sourceforge.net/projects/ktorus/?source=directory)
@@ -73,6 +69,4 @@ Do you like this game?
 (please don't do this now. I can not afford this project anymore)
 
 
-Author
-------
 JaeSung Lee (berise@gmail.com)
