@@ -36,12 +36,12 @@ wxTorus.dsw is added just for keeping old project file.
 
 HISTORY
 -------
-This game(torus) is initially started in 1998 to use Qt(ver 0.98).
-And I registered this program to sourceforce.net as a ktorus.
-At this time, kde was massively developed and grown up to modern desktop environment.
+This game(torus) is initially started in 1998 with Qt(ver 0.98) cloning a dos game named Torus(R).
+And I registered this project to sourceforce.net as a ktorus.
+At this time, kde was massively developed and growing up to modern desktop environment.
 
-I try to port my torus into kdesktop environment but I have no time to work.
-When KTorus reaches version 0.6, it is playable and I stopped.
+I try to port my torus into kdesktop environment but I did't fully port to kde env.
+When KTorus reaches version 0.6, I think it'splayable and I stopped to develop.
 
 Also, this program is submitted to app.kde.org. Well, now it is in app.kde because I didn't maintain this anymore.
 Some other linux sites still has information page about this program.
