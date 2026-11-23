@@ -6,8 +6,6 @@
 
 ---
 
-*wxTorus have been in my hard drive for a long time. I just want to make it runnable.*
-
 What is wxTorus
 ===============
 wxTorus is a simple game inspired by Torus for DOS.  The object of Torus is to 
@@ -41,37 +39,3 @@ To install wxWdget please see wxWidgets install pages.
 To build wxTorus you might need visual studio 2011 or above.
 load wxTorus.sln and build
 wxTorus.dsw is added just for keeping old project file.
-
-HISTORY
--------
-This game(torus) is initially started in 1998 with Qt(ver 0.98) cloning a dos game named Torus(R).
-And I registered this project to sourceforce.net as a ktorus.
-At this time, kde was massively developed and growing up to modern desktop environment.
-
-I try to port my torus into kdesktop environment but I did't fully port to kde env.
-When KTorus reaches version 0.6, I think it'splayable and I stopped to develop.
-
-Also, this program is submitted to app.kde.org. Well, now it is in app.kde because I didn't maintain this anymore.
-Some other linux sites still has information page about this program.
-
-After that, I try to port torus into MS Window platform.
-I choose a VWCL(Virtual Window Class Library by todd osbourne) as 
-a base GUI library. And I've uploaded it as torus_win32_ver0.6.zip at the
-sourceforge. 
-This is torus for win32. It works exactly same as linux version.
-The VWCL works very fine. This library gives many classes that help
-windows programming more easier. The greatest benefits of this library is that
-it makes a extreamly small executable size. it's almost same as win32 API.
-Sadly developer of this vwcl library stopped to develop. So I do not use this 
-library anymore.
-
-In 2005, I changed Qt to wxWidgets as a base library. While programming, I found
-wxWidgets is very useful and provides various functionalities that help programming.
-Thanks to wxWidgets.
-
-If you want to see older version of torus please go 
-[ktorus@sourceforge](http://sourceforge.net/projects/ktorus/?source=directory)
-
-Do you like this game? 
-~~Then please send me a email to encourage this project.~~
-(please don't do this now. I can not afford this project anymore)
