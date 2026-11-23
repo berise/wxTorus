@@ -1,3 +1,11 @@
+# WebTorus is alive
+## [Web Torus](https://webtorus.berise.workers.dev/)
+
+![webtorus_01](./assets/webtorus_01.jpg)
+![webtorus_02](./assets/webtorus_02.jpg)
+
+---
+
 *wxTorus have been in my hard drive for a long time. I just want to make it runnable.*
 
 What is wxTorus
@@ -67,6 +75,3 @@ If you want to see older version of torus please go
 Do you like this game? 
 ~~Then please send me a email to encourage this project.~~
 (please don't do this now. I can not afford this project anymore)
-
-
-JaeSung Lee (berise@gmail.com)
